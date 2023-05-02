@@ -5,3 +5,9 @@
 body {
     margin: 0;
 }
+
+@media (min-width: 768px){
+    .newsletter{
+        width: 50%;
+    }
+}

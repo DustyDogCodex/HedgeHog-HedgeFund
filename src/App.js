@@ -4,6 +4,7 @@ import Showcase from './components/Showcase';
 import NavbarComponent from './components/NavbarComponent';
 import Newsletter from './components/Newsletter';
 import Grid from './components/Grid';
+import LearnMore from './components/LearnMore';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Showcase />
       <Newsletter />
       <Grid />
+      <LearnMore />
     </div>
   );
 }

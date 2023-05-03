@@ -5,6 +5,7 @@ import NavbarComponent from './components/NavbarComponent';
 import Newsletter from './components/Newsletter';
 import Grid from './components/Grid';
 import LearnMore from './components/LearnMore';
+import FAQAccordion from './components/FAQAccordion';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Newsletter />
       <Grid />
       <LearnMore />
+      <FAQAccordion />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { Container, Nav, NavItem, NavLink, Navbar} from "react-bootstrap";
 
 function NavbarComponent(){
     return(
-        <Navbar bg="dark" expand="lg" variant="dark">
+        <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
             <Container>
                 <a href="#home" style={{textDecoration: 'none'}}><Navbar.Brand>HedgeHog Hedge Fund</Navbar.Brand></a>
 

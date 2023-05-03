@@ -6,6 +6,7 @@ import Newsletter from './components/Newsletter';
 import Grid from './components/Grid';
 import LearnMore from './components/LearnMore';
 import FAQAccordion from './components/FAQAccordion';
+import News from './components/News';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Grid />
       <LearnMore />
       <FAQAccordion />
+      <News />
     </div>
   );
 }

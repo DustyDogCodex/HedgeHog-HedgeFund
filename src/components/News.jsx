@@ -5,7 +5,7 @@ function News(){
         <section className="p-5" style={{margin:'50px 50px 200px 50px'}}>
             <h2 className="text-center mb-4">News & Insights</h2>
             <Container className="d-flex flex-column align-items-center justify-content-between">
-                <Row>
+                <Row lg={3} md={1} sm={1} xs={1}>
                     <Col>
                         <Card className="bg-dark text-white">                            
                             <Card.Img src="../images/handshake.jpg" alt="presidents shaking hands" />

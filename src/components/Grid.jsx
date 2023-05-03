@@ -9,8 +9,8 @@ function Grid(){
                     <Col >
                         <Card>
                             <Card.Img variant="top" src="../images/hedgehog1.jpg" className="images"/>
-                                <Card.Body>
-                                    <Card.Text>
+                                <Card.Body className="bg-primary">
+                                    <Card.Text className="text-light">
                                         What rodent helps reduce your risk when trading livestock futures? A hedgehog.
                                     </Card.Text>
                                 </Card.Body>
@@ -21,8 +21,8 @@ function Grid(){
                     <Col >
                         <Card>
                             <Card.Img variant="top" src="../images/hedgehog2.jpg" className="images"/>
-                                <Card.Body>
-                                    <Card.Text>
+                                <Card.Body className="bg-primary">
+                                    <Card.Text className="text-light">
                                         After studying at HedgeHogFord, Mr. Prickles now utilises his expertise and knowledge at HHF.
                                     </Card.Text>
                                 </Card.Body>
@@ -33,8 +33,8 @@ function Grid(){
                     <Col >
                         <Card>
                             <Card.Img variant="top" src="../images/hedgehog3.jpg" className="images"/>
-                                <Card.Body>
-                                    <Card.Text>
+                                <Card.Body className="bg-primary">
+                                    <Card.Text className="text-light">
                                         With 30 years of experience, Mr. Butterball is a hedgendary figure in the industry.
                                     </Card.Text>
                                 </Card.Body>

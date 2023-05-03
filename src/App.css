@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+/*styling for images displayed inside card component in Grid.js */
+.images{
+    height: 400px;
+}
+
 @media (min-width: 768px){
     .newsletter{
         width: 50%;

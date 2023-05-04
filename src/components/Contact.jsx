@@ -2,7 +2,6 @@ import { Col, Container, ListGroup, ListGroupItem, Row } from "react-bootstrap"
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 
-
 function Contact(){
 
     mapboxgl.accessToken = 'pk.eyJ1Ijoidm1hbGF2aXlhIiwiYSI6ImNsaDlpZHdwczA3bmYzZ3BoNGx0MDhreHQifQ.PkyMAVP9JlTTdJ4rm1wiZA';
@@ -40,7 +39,7 @@ function Contact(){
             <Container>
                 <Row className="g-4">
                     <Col>
-                        <h2>Contact Info</h2>
+                        <h2 className="text-center mb-3">Contact Info</h2>
                         <ListGroup variant="flush">
                             <ListGroupItem>
                                 <span className="fw-bold">Location:</span> 123 Street Name, City, State, 00000

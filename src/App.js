@@ -8,6 +8,7 @@ import LearnMore from './components/LearnMore';
 import FAQAccordion from './components/FAQAccordion';
 import News from './components/News';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <FAQAccordion />
       <News />
       <Contact />
+      <Footer />
     </div>
   );
 }

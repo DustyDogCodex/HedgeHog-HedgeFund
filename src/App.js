@@ -7,6 +7,7 @@ import Grid from './components/Grid';
 import LearnMore from './components/LearnMore';
 import FAQAccordion from './components/FAQAccordion';
 import News from './components/News';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <LearnMore />
       <FAQAccordion />
       <News />
+      <Contact />
     </div>
   );
 }

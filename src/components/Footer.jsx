@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap" 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
+import { faArrowAltCircleUp } from "@fortawesome/free-solid-svg-icons"
 
 function Footer(){
     return(
@@ -8,7 +8,7 @@ function Footer(){
             <Container>
                 <p className="lead">Copyright &copy; Varun Malaviya 2023</p>
                 <a href="#" className="position-absolute bottom-0 end-0 p-5">
-                    <FontAwesomeIcon icon={faArrowUp} style={{height:"40px", color: "#1c71d8",}} />
+                    <FontAwesomeIcon icon={faArrowAltCircleUp} style={{height:"40px", color: "#1c71d8",}} />
                 </a>
             </Container>
         </footer>

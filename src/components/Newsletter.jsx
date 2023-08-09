@@ -1,6 +1,6 @@
 //component for small newsletter section
 
-import { Container,InputGroup,Form,Button } from "react-bootstrap";
+import { Container, InputGroup, Form, Button } from "react-bootstrap"
 
 function Newsletter(){
     return(
@@ -15,8 +15,12 @@ function Newsletter(){
                             aria-label="Enter your email"
                             aria-describedby="basic-addon2"
                         />
-                        <Button variant="dark" size="lg" id="button-addon2">
-                        Subscribe
+                        <Button 
+                            variant="dark" 
+                            size="lg" 
+                            id="button-addon2"
+                        >
+                            Subscribe
                         </Button>
                     </InputGroup>
                 </div>                

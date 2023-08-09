@@ -1,8 +1,9 @@
+/* Accordion FAQ section */
 import { Container, Accordion } from "react-bootstrap";
 
 function FAQAccordion(){
     return(
-        <section className="p-5 bg-secondary">
+        <section className="p-5 bg-info">
             <Container>
                 <h1 className="text-light mb-4">Frequently Asked Questions</h1>
                 <Accordion flush>
@@ -12,12 +13,14 @@ function FAQAccordion(){
                                 No, this website is an idea I came up with because I was looking for a way to practice my bootstrap/designing skills. But after creating this website ... not a day goes by where I am wishing for these hedge hogs to be the hedgendary financial hogs that I know they can be.
                             </Accordion.Body>
                     </Accordion.Item>
+
                     <Accordion.Item eventKey="1">
                         <Accordion.Header><h5>Wow this website is so cool! How do I hire the guy who built this super awesome, completely hireable project?</h5></Accordion.Header>
                             <Accordion.Body>
-                                You can contact me via <a href="https://github.com/DustyDogCodex">Github</a>, <a href="https://twitter.com/VarunMalaviya2">this chaotic bird zoo</a> or by <a href="mailto:varunmalaviya7@gmail.com">sending me an email!</a> I look forward to hearing from you :)
+                                You can contact me via <a href="https://github.com/DustyDogCodex">Github</a>, on<a href="https://twitter.com/VarunMalaviya2">this chaotic bird zoo</a> or by sending me a message through my <a href="https://dustydogcodex.github.io/personal-portfolio/">portfolio</a>! I look forward to hearing from you :)
                             </Accordion.Body>
                     </Accordion.Item>
+                    
                     <Accordion.Item eventKey="2">
                         <Accordion.Header><h5>Were any hedgehogs harmed in the making of this website?</h5></Accordion.Header>
                             <Accordion.Body>

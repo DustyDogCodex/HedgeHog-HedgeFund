@@ -4,17 +4,18 @@ import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-load
 
 function Contact(){
 
-    mapboxgl.accessToken = 'pk.eyJ1Ijoidm1hbGF2aXlhIiwiYSI6ImNsaDlpZHdwczA3bmYzZ3BoNGx0MDhreHQifQ.PkyMAVP9JlTTdJ4rm1wiZA';
+    //public access token
+    mapboxgl.accessToken = 'pk.eyJ1Ijoidm1hbGF2aXlhIiwiYSI6ImNsaDlpZHdwczA3bmYzZ3BoNGx0MDhreHQifQ.PkyMAVP9JlTTdJ4rm1wiZA'
 
     //using documentation from mapbox.com
-    const mapContainer = useRef(null);
-        const map = useRef(null);
-        const [lng, setLng] = useState(-70.9);
-        const [lat, setLat] = useState(42.35);
-        const [zoom, setZoom] = useState(9);
+    const mapContainer = useRef(null)
+    const map = useRef(null)
+    const [lng, setLng] = useState(-70.9)
+    const [lat, setLat] = useState(42.35)
+    const [zoom, setZoom] = useState(9)
 
     useEffect(() => {
-        if (map.current) return; // initialize map only once
+        if (map.current) return // initialize map only once
         
         map.current = new mapboxgl.Map({
             container: mapContainer.current,
@@ -25,7 +26,7 @@ function Contact(){
     });
 
     useEffect(() => {
-        if (!map.current) return; // wait for map to initialize
+        if (!map.current) return // wait for map to initialize
         
         map.current.on('move', () => {
             setLng(map.current.getCenter().lng.toFixed(4));
@@ -35,11 +36,17 @@ function Contact(){
     });
 
     return (
-        <section className="p-5">
+        <section className="p-5 bg-dark" >
             <Container>
-                <Row className="g-4">
+                <Row 
+                    className="g-4"
+                    lg={2} 
+                    md={1} 
+                    sm={1} 
+                    xs={1}    
+                >
                     <Col>
-                        <h2 className="text-center mb-3">Contact Info</h2>
+                        <h2 className="text-center mb-3 text-warning">Contact Info</h2>
                         <ListGroup variant="flush">
                             <ListGroupItem>
                                 <span className="fw-bold">Location:</span> 123 Street Name, City, State, 00000
@@ -55,6 +62,7 @@ function Contact(){
                             </ListGroupItem>
                         </ListGroup>
                     </Col>
+
                     <Col>
                         <div className="sidebar">
                             Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}

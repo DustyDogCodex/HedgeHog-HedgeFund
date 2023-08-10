@@ -4,13 +4,20 @@ import hedgehog2 from "../Images/hedgehog2.jpg"
 import hedgehog3 from "../Images/hedgehog3.jpg"
 
 //using card templates from react-bootstrap docs
-function Grid(){
+function TraderCards(){
     return(
         <section className="p-5">
             <Container>
+                <h2
+                    className="mb-5 text-center"
+                >
+                    Meet Our Traders
+                </h2>
+
                 <Row 
                     className="text-center" 
                     lg={3} 
+                    md={2}
                     sm={1} 
                     xs={1}
                 >
@@ -21,11 +28,11 @@ function Grid(){
                                 src={hedgehog1} 
                                 className="images"
                             />
-                                <Card.Body className="bg-primary">
-                                    <Card.Text className="text-light">
-                                        What rodent helps reduce your risk when trading livestock futures? A hedgehog.
-                                    </Card.Text>
-                                </Card.Body>
+                            <Card.Body className="bg-primary">
+                                <Card.Text className="text-light">
+                                    What rodent helps reduce your risk when trading livestock futures? A hedgehog.
+                                </Card.Text>
+                            </Card.Body>
                         </Card>
                         <br />
                     </Col>
@@ -37,11 +44,11 @@ function Grid(){
                                 src={hedgehog2}
                                 className="images"
                             />
-                                <Card.Body className="bg-primary">
-                                    <Card.Text className="text-light">
-                                        After studying at HedgeHogFord, Mr. Prickles now utilises his expertise and knowledge at HHF.
-                                    </Card.Text>
-                                </Card.Body>
+                            <Card.Body className="bg-primary">
+                                <Card.Text className="text-light">
+                                    After studying at HedgeHogFord, Mr. Prickles now utilises his expertise and knowledge at HHF.
+                                </Card.Text>
+                            </Card.Body>
                         </Card>
                         <br />
                     </Col>
@@ -53,11 +60,11 @@ function Grid(){
                                 src={hedgehog3}
                                 className="images"
                             />
-                                <Card.Body className="bg-primary">
-                                    <Card.Text className="text-light">
-                                        With 30 years of experience, Mr. Butterball is a hedgendary figure in the industry.
-                                    </Card.Text>
-                                </Card.Body>
+                            <Card.Body className="bg-primary">
+                                <Card.Text className="text-light">
+                                    With 30 years of experience, Mr. Butterball is a hedgendary figure in the industry.
+                                </Card.Text>
+                            </Card.Body>
                         </Card>
                         <br />
                     </Col>
@@ -67,4 +74,4 @@ function Grid(){
     )
 }
 
-export default Grid
+export default TraderCards

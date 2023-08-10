@@ -5,7 +5,7 @@ function FAQAccordion(){
     return(
         <section className="p-5 bg-info">
             <Container>
-                <h1 className="text-light mb-4">Frequently Asked Questions</h1>
+                <h1 className="text-light mb-4 text-center">Frequently Asked Questions</h1>
                 <Accordion flush>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header><h5>Is this a real hedge fund?</h5></Accordion.Header>

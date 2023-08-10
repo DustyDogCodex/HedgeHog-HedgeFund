@@ -7,18 +7,19 @@ function Footer(){
         <footer className="p-2 bg-secondary text-white text-center position-relative">
             <Container>
                 <p 
-                    className="lead text-warning"
+                    className="lead text-warning text-sm"
                 >
-                    Copyright &copy; Varun Malaviya 2023
+                    Created with ❤️ by &copy; Varun Malaviya 2023
                 </p>
 
+                {/* button to return to the top/home section */}
                 <a 
                     href="#home" 
                     className="position-absolute bottom-0 end-0 p-2"
                 >
                     <FontAwesomeIcon 
                         icon={faArrowAltCircleUp} 
-                        style={{height:"40px", color: "#1c71d8",}} 
+                        style={{ color:'gold', height:"40px" }} 
                     />
                 </a>
             </Container>

@@ -1,10 +1,22 @@
-import { Container, Nav, NavItem, NavLink, Navbar} from "react-bootstrap";
+import { Container, Nav, NavItem, NavLink, Navbar} from "react-bootstrap"
 
 function NavbarComponent(){
     return(
-        <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
-            <Container>
-                <a href="#home" style={{textDecoration: 'none'}}><Navbar.Brand>HedgeHog Hedge Fund</Navbar.Brand></a>
+        <Navbar 
+            bg="primary" 
+            expand="lg" 
+            variant="dark" 
+            fixed="top"
+        >
+            <Container className="p-2">
+                <a 
+                    href="#home" 
+                    style={{textDecoration: 'none'}}
+                >
+                    <Navbar.Brand>
+                        HedgeHog Hedge Fund
+                    </Navbar.Brand>
+                </a>
 
                 <Navbar.Toggle aria-controls="navmenu"></Navbar.Toggle>
 

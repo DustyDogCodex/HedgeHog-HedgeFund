@@ -16,7 +16,7 @@ function Showcase(){
             id="home"
             className="bg-dark text-light p-5 text-center text-sm-start" 
         >
-            <Container className="p-3">
+            <Container className="p-4">
                 <div className="d-md-flex align-items-center justify-content-between">
                     <div className="p-2">
                         <h1>
@@ -33,6 +33,7 @@ function Showcase(){
                             variant="primary" 
                             size="lg" 
                             onClick={handleShow}
+                            className="mb-3"
                         >
                             Contact The Hogs
                         </Button>

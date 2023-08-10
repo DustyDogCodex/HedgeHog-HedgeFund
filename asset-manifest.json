@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HedgeHog-HedgeFund/static/css/main.a7d6f49a.css",
-    "main.js": "/HedgeHog-HedgeFund/static/js/main.fcd6bdf2.js",
+    "main.js": "/HedgeHog-HedgeFund/static/js/main.52590fab.js",
     "static/media/medicine.jpg": "/HedgeHog-HedgeFund/static/media/medicine.c300971b4075c986ff9a.jpg",
     "static/media/nuclear-fusion.jpg": "/HedgeHog-HedgeFund/static/media/nuclear-fusion.a96a3b97f24954eb2ec6.jpg",
     "static/media/handshake.jpg": "/HedgeHog-HedgeFund/static/media/handshake.2928d3e23006fd437fe7.jpg",
@@ -13,10 +13,10 @@
     "static/media/hedgehog1.jpg": "/HedgeHog-HedgeFund/static/media/hedgehog1.f1f5a28b38546a067abe.jpg",
     "index.html": "/HedgeHog-HedgeFund/index.html",
     "main.a7d6f49a.css.map": "/HedgeHog-HedgeFund/static/css/main.a7d6f49a.css.map",
-    "main.fcd6bdf2.js.map": "/HedgeHog-HedgeFund/static/js/main.fcd6bdf2.js.map"
+    "main.52590fab.js.map": "/HedgeHog-HedgeFund/static/js/main.52590fab.js.map"
   },
   "entrypoints": [
     "static/css/main.a7d6f49a.css",
-    "static/js/main.fcd6bdf2.js"
+    "static/js/main.52590fab.js"
   ]
 }
